@@ -6,46 +6,60 @@ developed all three codes using html,css,js
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my profile</title>
+    <title>My Profile</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>my profile</h1>
+        <h1>My Profile</h1>
     </header>
-    
+
     <div class="content">
         <section class="biography">
-            <img src="C:\Users\kolluruudaykiran\OneDrive\Pictures\img1.jpg".>
-            <h2>About me</h2>
-            
-            <p>I am uday kiran,from ravikamatham village anakapalli district.I have studied 1st to 8th at montessori english medium school,9th to 10th at SSNM English Medium School.Stepin to diploma KIET College at korangi kakinada district.After joined btech in Sri Venkateswara college of engineering and technology(Autonomous) in Chittoor.Iam currently pursuing 3rd year in SVCET </p>
+            <!-- Use relative path or upload to web location if using on web -->
+            <img src="img1.jpg" alt="Profile Image" width="200">
+            <h2>About Me</h2>
+            <p>
+                I am Uday Kiran, from Ravikamatham village, Anakapalli district. I studied from 1st to 8th grade at Montessori English Medium School, then completed my 9th and 10th at SSNM English Medium School.
+                I pursued a diploma at KIET College, Korangi, in Kakinada district, and currently I'm pursuing B.Tech at Sri Venkateswara College of Engineering and Technology (Autonomous), Chittoor. 
+                I am now in my 3rd year at SVCET.
+            </p>
         </section>
 
         <section class="achievements">
             <h2>Achievements</h2>
             <ul>
-                <li>i had achieved a certificate on communication skills in unnati program</li>
-                <li>i had achieved a certificate on ibm skills</li>
-                <li>i haad achueved a certificate on infosys springboard on python</li>
+                <li>Certificate on Communication Skills (Unnati Program)</li>
+                <li>Certificate from IBM Skills Program</li>
+                <li>Certificate on Python from Infosys Springboard</li>
             </ul>
+
             <h2>Skills</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>PYTHON</li>
-                <li>JAVA</li>  
-           </ul>
+                <li>Python</li>
+                <li>Java</li>  
+            </ul>
         </section>
     </div>
-   <section>
-            <h2>Contact Me</h2>
-            <p>Visit my Linkdin: <a href="https://www.linkedin.com/in/uday-kiran-kolluru?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Get In Touch</a></p>
-            <p>visit instagram: <a href="https://www.instagram.com/?__pwa=1">Instagram</a></p>
-            <button id="alertButton">Click Me!</button>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Visit my LinkedIn: <a href="https://www.linkedin.com/in/uday-kiran-kolluru" target="_blank">Uday LinkedIn Profile</a></p>
+        <p>Visit Instagram: <a href="https://www.instagram.com/?__pwa=1" target="_blank">Uday Instagram</a></p>
+        <p>Visit GitHub: <a href="https://github.com/dashboard" target="_blank">Uday GitHub</a></p>
+        <button id="alertButton">Click Me!</button>
     </section>
+
+    <script>
+        document.getElementById("alertButton").addEventListener("click", function () {
+            alert("Thank you for visiting my profile!");
+        });
+    </script>
 </body>
 </html>
+
 #CSS---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 body {
