@@ -17,7 +17,7 @@ developed all three codes using html,css,js
     <div class="content">
         <section class="biography">
             <!-- Use relative path or upload to web location if using on web -->
-            <img src="img1.jpg" alt="Profile Image" width="200">
+            <img src="C:\Users\kolluruudaykiran\OneDrive\Pictures\img1.jpg" alt="Profile Image" width="200">
             <h2>About Me</h2>
             <p>
                 I am Uday Kiran, from Ravikamatham village, Anakapalli district. I studied from 1st to 8th grade at Montessori English Medium School, then completed my 9th and 10th at SSNM English Medium School.
